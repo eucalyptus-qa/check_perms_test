@@ -28,6 +28,9 @@ class PermsChecker(object):
             for component in KnownComponents:
                 if component in line:
                     self.ips[component].append(line[:line.find("\t")])
+                    if "REPO" in line:
+                        self.euca_home = "/"
+                
 
     def check_walrus_perms(self):
         for ip in self.ips['WS']:
