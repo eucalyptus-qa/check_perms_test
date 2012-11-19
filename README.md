@@ -1,3 +1,14 @@
+check_perms_test
+================
+
+## Description
+
+Checks that the permissions on bukkits and volumes directories are set properly.
+
+## Procedure
+
+Checks that the permissions on bukkits and volumes directories are set properly.
+
 # Eucalyptus Testunit Framework
 
 Eucalyptus Testunit Framework is designed to run a list of test scripts written by Eucalyptus developers.
